@@ -13,7 +13,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - postgres_data_17:/var/lib/postgresql/data
+      - postgres_data_17_v2:/var/lib/postgresql/data
 
 volumes:
-  postgres_data_17:
+  postgres_data_17_v2:
